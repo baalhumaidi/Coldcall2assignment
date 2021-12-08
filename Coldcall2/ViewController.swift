@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         
           let randomnum = Int.random(in: 1...5)
             let names = [ "Jay", "Nathan", "Michecl", "Ahmed", "Antony","Brian","Cody"]
-        // If the number is 1 or 2, the number should have a red color, if the number is 3 or 4 then the number should have an orange color, and finally, if the number is 5 then the number should have a green color.
+       // change the number colors
            let randomname = names.randomElement()
         if  randomnum == 1 || randomnum == 2
         {radomnum1.textColor = UIColor.red
